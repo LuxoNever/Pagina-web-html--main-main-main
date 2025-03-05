@@ -430,27 +430,162 @@ h1{
 }
 
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 80vh; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 
+    display: none; /* Oculto por defecto */
+    position: fixed; /* Fijo en la pantalla */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Oscurece el fondo */
+    z-index: 9999; /* Asegura que esté encima de todo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+
+
 
 .modal-content {
-    background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
+
+    position: relative;
+    margin-left: 10px;
+    top: -0px;
+    height: 650px;
+    background: white;
     padding: 20px;
-    border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
-    height: 790px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 320px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
   }
+
+
+.modal_titule{
+
+    color: rgba(23, 43, 77, 1);
+    position: relative;
+    top: -40px;
+    border: 1px solid rgba(255, 0, 0, 0);
+    height: 50px;
+    width: 290px;
+    
+}
+.titulo_modal{
+
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: 0%;
+}
+
+.HBR{
+
+    position: relative;
+    top: 20px;
+    display: flex;
+    gap: 8px;
+
+}
+
+.tag_Ruby_and_rails{
+
+
+    margin-top: 10px;
+    color: rgba(9, 30, 66, 1);
+    font-family: "Inter", serif;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    width: 130px;
+}
+
+.imagen_modal{
+
+    position: relative;
+    top: 55px;
+    margin-left: -318px;
+    width: 330px;
+    height: 220px;
+}
+
+
+.text_and_buttons{
+
+    position: relative;
+    top: 90px;
+    height: 288px;
+    border: 1px solid rgba(0, 0, 0, 0);
+
+}
+
+.text_modal{
+
+    color: rgba(52, 69, 99, 1);
+    position: relative;
+    top: -20px;
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+.modal_buttons1{
+
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    top: -20px;
+    border: rgba(255, 107, 0, 1);
+    background-color: rgba(255, 107, 0, 1);
+    width: 130px;
+    height: 50px;
+    font-family: "Inter", serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 3%;
+}
+.fa-file-export{
+    position: relative;
+    margin-left: 13px;
+}
+
+.modal_buttons2{
+
+    color: rgba(255, 255, 255, 1);
+    border: rgba(255, 107, 0, 1);
+    position: relative;
+    top: -20px;
+    margin-left: 20px;
+    background-color: rgba(255, 107, 0, 1);
+    width: 160px;
+    height: 50px;
+    font-family: "Inter", serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 3%;
+}
+
+.fa-square-github{
+
+    position: relative;
+    margin-left: 13px;
+    font-size: 20px;
+
+}
+
+.container_tag4_modal{
+
+    border: 1px solid rgba(137, 147, 164, 1);
+    margin-top: -1px;
+    width: 130px;
+    height: 40px;
+
+
+}
 
 
 .close {
@@ -975,9 +1110,9 @@ h1{
 
     position: relative;
     top: 650px;
-    border: 1px solid red ;
+    border: 1px solid rgba(255, 0, 0, 0) ;
     width: 100%px;
-    height: 890px;
+    height: 980px;
 
 }
 
@@ -1097,3 +1232,96 @@ h1{
 }
 
 
+
+
+.container_iconos_footer{
+
+    
+    border: 1px solid rgba(223, 225, 230, 1);
+    position: relative;
+    top: 140px;
+    margin-left: -20px;
+    width: 352px;
+
+}
+
+.container_icon{
+
+    border: 1px solid rgba(0, 0, 0, 0);
+    position: relative;
+    top: 115px;
+    width: 375;
+    height: 100px;
+    margin-left: -9px;
+}
+
+
+
+.container_footer_tags{
+
+    position: relative;
+    margin-left: 68px;
+    display: flex;
+    top: 20px;
+
+
+}
+
+.border_tags1{
+
+    
+    width: 40px;
+    height: 40px;
+}
+
+.border_tags2{
+    
+    width: 40px;
+    height: 40px;
+
+}
+.border_tags3{
+
+    
+    width: 40px;
+    height: 40px;
+}
+
+.border_tags4{
+
+    
+    width: 40px;
+    height: 40px;
+}
+
+.border_tags5{
+
+    
+    width: 40px;
+    height: 40px;
+}
+
+
+footer .fa-github{
+
+    color: rgba(80, 95, 121, 1); 
+}
+footer .fa-linkedin-in{
+
+    color: rgba(80, 95, 121, 1);
+}
+
+footer .fa-angellist{
+
+    color: rgba(80, 95, 121, 1);
+}
+
+footer .fa-x-twitter{
+
+    color: rgba(80, 95, 121, 1);
+}
+
+footer .fa-medium{
+
+    color: rgba(80, 95, 121, 1);
+}
